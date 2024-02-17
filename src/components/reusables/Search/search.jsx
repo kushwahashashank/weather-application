@@ -13,7 +13,7 @@ function Search({ setSelectedOption }) {
     const arrayobj = [];
     citiesList?.data?.map((city) => {
       arrayobj.push({
-        value: `${city.latitude}`+","+`${city.longitude}`,
+        value: `${city.latitude}` + "," + `${city.longitude}`,
         label: `${city.name}, ${city.countryCode}`,
       });
     });
